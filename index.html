@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>My Mems Order</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: #f8f8f8;
+      font-family: sans-serif;
+    }
+    .loading {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="loading">
+    <h2>Đang mở form đặt hàng...</h2>
+    <p>Vui lòng chờ trong giây lát</p>
+  </div>
+
+  <script>
+    // Link Google Apps Script /exec
+    const targetUrl = "https://script.google.com/macros/s/AKfycbwmcqjalhHbkr1j9NC51rewCp37GvbjCHWts/exec";
+    window.location.href = targetUrl;
+  </script>
+</body>
+</html>
