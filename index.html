@@ -25,10 +25,9 @@
   </div>
 
   <script>
-    // Link Google Apps Script /exec
-    const targetUrl = "https://script.google.com/macros/s/AKfycbwmcjalhHbkr1j9NC51rewCp37GvbjCHWtRpLKZp1X9mt6dCyJntAnxyKOaTNTdsu_s/exec";
-    window.location.href = targetUrl;
+    // Link Google Apps Script /exec với tham số chống cache
+    const targetUrl = 'https://script.google.com/macros/s/AKfycbyPeMaklWMz_83KY636i01LhwPYcLamOo_hC9PA7N5Gnhwjp4HR9s0Dhvrp0YiO3F7D/exec?v=2025-08-08';
+    window.location.replace(targetUrl); // Redirect không lưu trang trung gian vào lịch sử
   </script>
 </body>
 </html>
-
